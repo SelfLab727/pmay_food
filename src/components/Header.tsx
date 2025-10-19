@@ -33,7 +33,7 @@ export default function Header() {
                 to={link.path}
                 className={`text-base font-medium transition-colors ${
                   isActive(link.path)
-                    ? 'text-primary border-b-2 border-primary'
+                    ? 'text-primary border-b-2 border-white'
                     : 'text-gray-700 hover:text-primary'
                 }`}
               >
